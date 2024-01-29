@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0px;
+
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.menulists_container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.menulists {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+}
+.menulists .link {
+  color: #3f3f3f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.menulists .link:hover {
+  color: #f72d57;
+  transition: ease-in 0.12s;
+  border-bottom: 2px solid #f72d57;
+}
+.button {
+  border-radius: 5px;
+  background: #f72d57;
+  font-size: 22px;
+  border: none;
+  color: white;
+  padding: 10px 26px;
+}

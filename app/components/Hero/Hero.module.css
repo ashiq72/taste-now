@@ -1,0 +1,68 @@
+.hero {
+  background-image: url("https://i.postimg.cc/zfCKx7B4/Group-3204.png");
+  /* background-size: cover; Adjust as needed */
+  background-position: center;
+  /* box-shadow: 40px 40px 80px rgba(0, 0, 0, 0.9); */
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.text_area {
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+  padding-right: 30px;
+}
+.text_area h1 {
+  color: #3f3f3f;
+  /* font-family: Poppins; */
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+}
+.hero h1 span {
+  color: #f72d57;
+  /* font-size: 75px; */
+}
+.text_area p {
+  padding-top: 22px;
+  color: #3f3f3f;
+
+  /* font-family: Poppins; */
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.image_area {
+  /* border: 1px solid red; */
+  width: 50%;
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+}
+.image_area .image1 {
+  /* border: 1px solid green; */
+  margin-top: 150px;
+  transform: rotate(10deg);
+  margin-left: -80px;
+}
+.image_area .image2 {
+  /* border: 1px solid green; */
+  padding-top: 35px;
+  margin-left: -15px;
+  transform: rotate(0deg);
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
