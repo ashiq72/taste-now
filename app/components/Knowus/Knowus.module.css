@@ -1,7 +1,8 @@
 .container {
   /* display: flex; */
-  max-width: 1320px;
+  max-width: 1520px;
   margin: 0 auto;
+  padding: 120px 20px;
 }
 .header {
   width: 100%;
@@ -17,7 +18,13 @@
   color: #f72d57;
   /* font-size: 75px; */
 }
-.content {
+.content1 {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 30px 0;
+}
+.content2 {
   display: flex;
   align-items: center;
   gap: 80px;
@@ -25,6 +32,9 @@
 }
 .imagearea {
   width: 50%;
+  height: 500px;
+  position: relative;
+  aspect-ratio: 76/85;
   /* border: 1px solid red; */
 }
 .textarea {
@@ -48,4 +58,52 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+@media (max-width: 640px) {
+  .content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 0;
+  }
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 0;
+  }
+  .imagearea {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    aspect-ratio: 76/85;
+  }
+  .textarea {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .header h1 {
+    color: #3f3f3f;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+  .textarea h1 {
+    font-size: 20px;
+
+    font-weight: 700;
+    line-height: 25px;
+  }
+
+  .textarea p {
+    color: #3f3f3f;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
 }

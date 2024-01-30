@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./Knowus.module.css";
+import blog1 from "@/public/blog1.png";
+import blog2 from "@/public/blog2.png";
 
 function Knowus() {
   return (
@@ -10,14 +12,9 @@ function Knowus() {
             Get to know <span>us</span>
           </h1>
         </div>
-        <div className={styles.content}>
+        <div className={styles.content1}>
           <div className={styles.imagearea}>
-            <Image
-              src="https://i.postimg.cc/bYCXbt7p/unsplash-Oalh2-Moj-Uuk.png"
-              alt=""
-              width={618}
-              height={435}
-            />
+            <Image src={blog1} fill alt="" />
           </div>
           <div className={styles.textarea}>
             <h1>
@@ -30,7 +27,7 @@ function Knowus() {
             </p>
           </div>
         </div>
-        <div className={styles.content}>
+        <div className={styles.content2}>
           <div className={styles.textarea}>
             <h1>
               We are all in for the <span>enviroment</span>
@@ -42,12 +39,7 @@ function Knowus() {
             </p>
           </div>
           <div className={styles.imagearea}>
-            <Image
-              src="https://i.postimg.cc/bYCXbt7p/unsplash-Oalh2-Moj-Uuk.png"
-              alt=""
-              width={618}
-              height={435}
-            />
+            <Image src={blog2} alt="" fill />
           </div>
         </div>
       </div>

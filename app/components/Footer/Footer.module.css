@@ -1,15 +1,22 @@
 .footer {
   background-color: #f72d57;
   color: white;
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 .container {
   display: flex;
-  max-width: 1320px;
+  max-width: 1520px;
   margin: 0 auto;
+  gap: 70px;
+}
+.logoarea {
+  width: 400px;
+}
+.linkarea {
+  width: 100%;
+  display: flex;
   justify-content: space-between;
 }
-
 .links {
   display: flex;
   flex-direction: column;
@@ -28,4 +35,37 @@
 }
 .links a {
   font-size: 14px;
+}
+.socialmobile {
+  display: nones;
+}
+@media (max-width: 640px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .logoarea {
+    width: auto;
+    text-align: center;
+  }
+  .social {
+    display: none;
+  }
+  .linkarea {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    gap: 60px;
+  }
+  .socialmobile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socialmobile span {
+    font-size: 35px;
+  }
 }
