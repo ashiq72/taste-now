@@ -6,6 +6,7 @@
   background-color: white;
   max-width: 1520px;
   margin: 0 auto;
+  position: relative;
 }
 .menulists_container {
   display: flex;
@@ -39,4 +40,35 @@
   border: none;
   color: white;
   padding: 10px 26px;
+}
+.cart_moblie {
+  display: none;
+}
+.bars_moblie {
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  .logo {
+    width: 120px;
+    height: 30px;
+  }
+  .menulists {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+  .cart_moblie {
+    display: flex;
+  }
+  .logoarea {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .bars_moblie {
+    display: flex;
+    font-size: 35px;
+  }
 }

@@ -14,7 +14,6 @@
   margin: 0 auto;
   padding: 0 20px;
 }
-
 .text_area {
   width: 50%;
   /* height: 70vh; */
@@ -62,20 +61,19 @@
   font-weight: 300;
   line-height: normal;
 }
-
 @media (max-width: 640px) {
   .container {
     flex-direction: column;
     margin: 0 auto;
     padding: 0 0px;
   }
-
   .text_area {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
   }
   .image_area {
     width: 100%;
@@ -89,7 +87,7 @@
     line-height: 40px;
   }
   .text_area p {
-    padding-top: 18px;
+    padding-top: 12px;
     color: #3f3f3f;
     font-size: 14px;
     font-style: normal;
