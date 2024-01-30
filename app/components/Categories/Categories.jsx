@@ -26,7 +26,7 @@ function Categories() {
         <div className={styles.slide}>
           <div className={styles.categorie_items}>
             <div>
-              <span>
+              <span className={styles.pizzas}>
                 <IoPizzaSharp />
               </span>
               <h1>Pizzas</h1>

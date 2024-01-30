@@ -1,9 +1,4 @@
-/* .categories {
-  height: 90vh;
-
-} */
 .container {
-  /* display: flex; */
   max-width: 1520px;
   margin: 0 auto;
   padding: 0 10px;
@@ -13,19 +8,14 @@
 }
 .header h1 {
   color: #3f3f3f;
-  /* font-family: Poppins; */
   font-size: 60px;
   font-style: normal;
   font-weight: 700;
   line-height: 85px;
   text-align: center;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 .header h1 span {
   color: #f72d57;
-  /* font-size: 75px; */
 }
 .slide_card {
   box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.05),
@@ -51,7 +41,6 @@
   padding: 0 10px;
 }
 .categorie_items div {
-  /* background: #f72d57; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -81,4 +70,27 @@
 }
 .categorie_items div:hover span {
   color: white;
+}
+@media (max-width: 640px) {
+  .header h1 {
+    color: #3f3f3f;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+  .categorie_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0 10px;
+  }
+  .categorie_items div h1 {
+    color: #f72d57;
+    font-size: 16px;
+  }
+  .swiper {
+    width: 100%;
+    padding: 30px 35px 50px 10px;
+  }
 }
