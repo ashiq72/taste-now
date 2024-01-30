@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./Hero.module.css";
+import bg1 from "@/public/bg1.png";
+import bg2 from "@/public/bg2.png";
 
 function Hero() {
   return (
@@ -19,18 +21,14 @@ function Hero() {
           </p>
         </div>
         <div className={styles.image_area}>
+          <Image src={bg2} alt="logo" fill priority className={styles.image1} />
           <Image
-            src="https://i.postimg.cc/nrw1p4XF/Splash-food-1.png"
+            src={bg1}
             alt="logo"
-            height={900}
-            width={900}
-            className={styles.image1}
-          />
-          <Image
-            src="https://i.postimg.cc/8ky4RSt2/Food-Background-2-1.png"
-            alt="logo"
-            height={905}
-            width={905}
+            fill
+            priority
+            // width={450}
+            // height={540}
             className={styles.image2}
           />
         </div>

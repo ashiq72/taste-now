@@ -9,60 +9,103 @@
 }
 .container {
   display: flex;
-  max-width: 1600px;
+  flex-direction: row;
+  max-width: 1520px;
   margin: 0 auto;
+  padding: 0 20px;
 }
+
 .text_area {
   width: 50%;
-  height: 80vh;
+  /* height: 70vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 20px;
   /* border: 1px solid red; */
-  padding-right: 30px;
+  /* padding-right: 30px; */
+}
+.image_area {
+  width: 50%;
+  position: relative;
+  aspect-ratio: 76/85;
+}
+.image_area .image1 {
+  margin-top: 180px;
+  margin-left: -40px;
+  object-fit: cover;
+}
+.image_area .image2 {
+  position: absolute;
+  object-fit: cover;
+  height: 500px;
+  margin-top: -0px;
 }
 .text_area h1 {
   color: #3f3f3f;
   /* font-family: Poppins; */
-  font-size: 60px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 85px;
+  line-height: 65px;
 }
 .hero h1 span {
   color: #f72d57;
   /* font-size: 75px; */
 }
 .text_area p {
-  padding-top: 22px;
+  padding-top: 20px;
   color: #3f3f3f;
-
-  /* font-family: Poppins; */
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
+  /* padding-right: 30px; */
   font-weight: 300;
   line-height: normal;
 }
 
-.image_area {
-  /* border: 1px solid red; */
-  width: 50%;
-  position: relative;
-  height: 90vh;
-  overflow: hidden;
-}
-.image_area .image1 {
-  /* border: 1px solid green; */
-  margin-top: 150px;
-  transform: rotate(10deg);
-  margin-left: -80px;
-}
-.image_area .image2 {
-  /* border: 1px solid green; */
-  padding-top: 35px;
-  margin-left: -15px;
-  transform: rotate(0deg);
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 0px;
+  }
+
+  .text_area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  .image_area {
+    width: 100%;
+    position: relative;
+    aspect-ratio: 76/85;
+  }
+  .text_area h1 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .text_area p {
+    padding-top: 18px;
+    color: #3f3f3f;
+    font-size: 14px;
+    font-style: normal;
+    padding-right: 0px;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .image_area .image1 {
+    margin-top: 20px;
+    margin-left: -40px;
+    object-fit: cover;
+  }
+  .image_area .image2 {
+    position: absolute;
+    object-fit: cover;
+    height: 500px;
+    margin-top: -70px;
+  }
 }

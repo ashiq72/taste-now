@@ -1,0 +1,31 @@
+.footer {
+  background-color: #f72d57;
+  color: white;
+  padding: 60px 0;
+}
+.container {
+  display: flex;
+  max-width: 1320px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.links h1 {
+  font-family: Praise;
+  font-size: 48px;
+}
+.social {
+  display: flex;
+  gap: 20px;
+}
+.social span {
+  font-size: 35px;
+}
+.links a {
+  font-size: 14px;
+}

@@ -1,0 +1,51 @@
+.container {
+  /* display: flex; */
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+}
+.header h1 {
+  color: #3f3f3f;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+}
+.header h1 span {
+  color: #f72d57;
+  /* font-size: 75px; */
+}
+.content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 30px 0;
+}
+.imagearea {
+  width: 50%;
+  /* border: 1px solid red; */
+}
+.textarea {
+  width: 50%;
+  /* border: 1px solid red; */
+}
+.textarea h1 {
+  color: #3f3f3f;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  padding: 10px 0;
+}
+.textarea span {
+  color: #f72d57;
+}
+.textarea p {
+  color: #3f3f3f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
