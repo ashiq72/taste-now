@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "pizzas",
+      "category_item": [
+        {
+          "id": 1,
+          "name": "Pepperoni Pizza",
+          "price": 11.99,
+          "description": "Di napoles",
+          "photoUrl": "https://i.postimg.cc/nhMFjR8p/pizza-2-1.png"
+        },
+        {
+          "id": 2,
+          "name": "Mediterranean Pizza",
+          "price": 15.99,
+          "description": "Milano",
+          "photoUrl": "https://i.postimg.cc/hvzMdbPh/image-3.png"
+        },
+        {
+          "id": 2,
+          "name": "Vegetarian Pizza",
+          "price": 13.99,
+          "description": "Cosa di Mario",
+          "photoUrl": "https://i.postimg.cc/hGY2P5cN/3-35083-pepperoni-pizza-slice-png-pepperoni-pizza-transparent-background-1.png"
+        },
+        {
+          "id": 3,
+          "name": "Vegetarian Pizza",
+          "price": 12.99,
+          "description": "Cosa di Mario",
+          "photoUrl": "https://i.postimg.cc/J0LcswgY/image-22-1.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "burgers",
+      "category_item": [
+        {
+          "id": 1,
+          "name": "Крокетсы большие",
+          "price": 690,
+          "description": "Хрустящий и сочный снэк из тертого картофеля",
+          "photoUrl": "https://eda.yandex/images/3772784/685b91b72f622cd726ed76008838c70d-400x400.jpeg",
+          "status": "in-stock"
+        },
+        {
+          "id": 2,
+          "name": "Крокетсы стандартные",
+          "price": 590,
+          "description": "Хрустящий и сочный снэк из тертого картофеля",
+          "photoUrl": "https://eda.yandex/images/3709189/ea0ceaf2681a79a86550602664278a91-400x400.jpeg",
+          "status": "in-stock"
+        },
+        {
+          "id": 3,
+          "name": "Баскет Крокетсов",
+          "price": 1300,
+          "description": "Хрустящий и сочный снэк из тертого картофеля",
+          "photoUrl": "https://eda.yandex/images/3538649/fe9c4fecf09ef398f2129892046118ae-400x400.jpeg",
+          "status": "in-stock"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "salads",
+      "category_item": [
+        {
+          "id": 1,
+          "name": "Крокетсы большие",
+          "price": 690,
+          "description": "Хрустящий и сочный снэк из тертого картофеля",
+          "photoUrl": "https://eda.yandex/images/3772784/685b91b72f622cd726ed76008838c70d-400x400.jpeg",
+          "status": "in-stock"
+        },
+        {
+          "id": 2,
+          "name": "Крокетсы стандартные",
+          "price": 590,
+          "description": "Хрустящий и сочный снэк из тертого картофеля",
+          "photoUrl": "https://eda.yandex/images/3709189/ea0ceaf2681a79a86550602664278a91-400x400.jpeg",
+          "status": "in-stock"
+        },
+        {
+          "id": 3,
+          "name": "Баскет Крокетсов",
+          "price": 1300,
+          "description": "Хрустящий и сочный снэк из тертого картофеля",
+          "photoUrl": "https://eda.yandex/images/3538649/fe9c4fecf09ef398f2129892046118ae-400x400.jpeg",
+          "status": "in-stock"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "combos",
+      "category_item": [
+        {
+          "id": 1,
+          "name": "Крокетсы большие",
+          "price": 690,
+          "description": "Хрустящий и сочный снэк из тертого картофеля",
+          "photoUrl": "https://eda.yandex/images/3772784/685b91b72f622cd726ed76008838c70d-400x400.jpeg",
+          "status": "in-stock"
+        },
+        {
+          "id": 2,
+          "name": "Крокетсы стандартные",
+          "price": 590,
+          "description": "Хрустящий и сочный снэк из тертого картофеля",
+          "photoUrl": "https://eda.yandex/images/3709189/ea0ceaf2681a79a86550602664278a91-400x400.jpeg",
+          "status": "in-stock"
+        },
+        {
+          "id": 3,
+          "name": "Баскет Крокетсов",
+          "price": 1300,
+          "description": "Хрустящий и сочный снэк из тертого картофеля",
+          "photoUrl": "https://eda.yandex/images/3538649/fe9c4fecf09ef398f2129892046118ae-400x400.jpeg",
+          "status": "in-stock"
+        }
+      ]
+    }
+  ]
+}

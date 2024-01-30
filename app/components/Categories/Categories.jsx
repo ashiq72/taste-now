@@ -25,7 +25,7 @@ function Categories() {
         </div>
         <div className={styles.slide}>
           <div className={styles.categorie_items}>
-            <div>
+            <div className={styles.active_cate}>
               <span className={styles.pizzas}>
                 <IoPizzaSharp />
               </span>
@@ -91,7 +91,7 @@ function Categories() {
                         width={300}
                         className={styles.image1}
                       />
-                      <h1>1</h1>
+                      <h1>Pepperoni Pizza</h1>
                       <p>Di napoles</p>
                       <h3>$11,99</h3>
                       <button>Add to cart</button>
@@ -100,13 +100,13 @@ function Categories() {
                   <SwiperSlide>
                     <div className={styles.slide_card}>
                       <Image
-                        src="https://i.postimg.cc/nhMFjR8p/pizza-2-1.png"
+                        src="https://i.postimg.cc/J0LcswgY/image-22-1.png"
                         alt="logo"
                         height={300}
                         width={300}
                         className={styles.image1}
                       />
-                      <h1>2</h1>
+                      <h1>Mediterranean Pizza</h1>
                       <p>Di napoles</p>
                       <h3>$11,99</h3>
                       <button>Add to cart</button>
@@ -115,13 +115,13 @@ function Categories() {
                   <SwiperSlide>
                     <div className={styles.slide_card}>
                       <Image
-                        src="https://i.postimg.cc/nhMFjR8p/pizza-2-1.png"
+                        src="https://i.postimg.cc/hvzMdbPh/image-3.png"
                         alt="logo"
                         height={300}
                         width={300}
                         className={styles.image1}
                       />
-                      <h1>3</h1>
+                      <h1>Pepperoni Pizza</h1>
                       <p>Di napoles</p>
                       <h3>$11,99</h3>
                       <button>Add to cart</button>
@@ -130,13 +130,13 @@ function Categories() {
                   <SwiperSlide>
                     <div className={styles.slide_card}>
                       <Image
-                        src="https://i.postimg.cc/nhMFjR8p/pizza-2-1.png"
+                        src="https://i.postimg.cc/hGY2P5cN/3-35083-pepperoni-pizza-slice-png-pepperoni-pizza-transparent-background-1.png"
                         alt="logo"
                         height={300}
                         width={300}
                         className={styles.image1}
                       />
-                      <h1>4</h1>
+                      <h1>Vegetarian Pizza</h1>
                       <p>Di napoles</p>
                       <h3>$11,99</h3>
                       <button>Add to cart</button>
@@ -145,13 +145,13 @@ function Categories() {
                   <SwiperSlide>
                     <div className={styles.slide_card}>
                       <Image
-                        src="https://i.postimg.cc/nhMFjR8p/pizza-2-1.png"
+                        src="https://i.postimg.cc/J0LcswgY/image-22-1.png"
                         alt="logo"
                         height={300}
                         width={300}
                         className={styles.image1}
                       />
-                      <h1>5</h1>
+                      <h1>Pepperoni Pizza</h1>
                       <p>Di napoles</p>
                       <h3>$11,99</h3>
                       <button>Add to cart</button>
